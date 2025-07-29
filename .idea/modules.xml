@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/react-masterclass.iml" filepath="$PROJECT_DIR$/react-masterclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-masterclass.iml" filepath="$PROJECT_DIR$/.idea/react-masterclass.iml" />
     </modules>
   </component>
 </project>
