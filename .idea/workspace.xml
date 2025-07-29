@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc427109-75a3-407e-b2bb-ffa48aa4b658" name="Changes" comment="Typescript를 사용할 수 있는 react app 프로젝트 생성">
+    <list default="true" id="fc427109-75a3-407e-b2bb-ffa48aa4b658" name="Changes" comment="Typescript (Typing the Props)">
+      <change afterPath="$PROJECT_DIR$/src/Circle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
@@ -21,6 +20,13 @@
       <option value="directory" />
       <option value="module" />
       <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
     </option>
   </component>
   <component name="Git.Settings">
@@ -42,6 +48,9 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 5
@@ -95,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753771967258</updated>
-      <workItem from="1753771968694" duration="7131000" />
+      <workItem from="1753771968694" duration="10966000" />
     </task>
     <task id="LOCAL-00001" summary="Typescript를 사용할 수 있는 react app 프로젝트 생성">
       <option name="closed" value="true" />
@@ -105,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753772646612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Typescript를 사용할 수 있는 react app 프로젝트 생성하여 직전 소스 코드 정상적으로 작동되도록 수정&#10; - props:any 방식은 타입 안전성이 사라지기 때문에 비추천 함.">
+      <option name="closed" value="true" />
+      <created>1753781219553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753781219553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Typescript를 사용할 수 있는 react app 프로젝트 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typescript를 사용할 수 있는 react app 프로젝트 생성" />
+    <MESSAGE value="Typescript를 사용할 수 있는 react app 프로젝트 생성하여 직전 소스 코드 정상적으로 작동되도록 수정&#10; - props:any 방식은 타입 안전성이 사라지기 때문에 비추천 함." />
+    <option name="LAST_COMMIT_MESSAGE" value="Typescript를 사용할 수 있는 react app 프로젝트 생성하여 직전 소스 코드 정상적으로 작동되도록 수정&#10; - props:any 방식은 타입 안전성이 사라지기 때문에 비추천 함." />
   </component>
 </project>
