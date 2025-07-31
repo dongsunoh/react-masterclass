@@ -25,8 +25,9 @@ const Coin = styled.li`
     margin-bottom: 10px;
     border-radius: 15px;
     a {
+        display: flex;
+        align-items: center;
         padding: 20px;
-        display: block;
         transition: color 0.2s ease-in;
     }
     &:hover{
@@ -47,6 +48,12 @@ const Loader = styled.span`
     font-size: 48px;
 `;
 
+const CoinImg = styled.img`
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+`;
+
 interface CoinInterface {
     id: string;
     name: string;
@@ -64,7 +71,7 @@ function Coins () {
 
     useEffect(() => {
         (async() => {
-            const json = await (await fetch("https://proxy.cors.sh/https://api.coinpaprika.com/v1/coins")).json();
+            const json = await (await fetch("https://api.coinpaprika.com/v1/coins")).json();
             setCoins(json.slice(0,100));
             setLoading(false);
         })();
@@ -81,7 +88,13 @@ function Coins () {
                         {coins.map((coin) => {
                             return (
                                 <Coin key={coin.id}>
-                                    <Link to={`/${coin.id}`}>
+                                    <Link to={{
+                                        pathname : `/${coin.id}`,
+                                        state : {
+                                            name : coin.name
+                                        }
+                                    }}>
+                                        <CoinImg src={`https://cryptocurrencyliveprices.com/img/${coin.id}.png`}/>
                                         {coin.name} &rarr;
                                     </Link>
                                 </Coin>
